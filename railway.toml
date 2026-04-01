@@ -1,0 +1,7 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python gold_agent.py"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 5
